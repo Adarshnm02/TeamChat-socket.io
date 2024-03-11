@@ -26,9 +26,6 @@ body {
   border: 8px solid #dddddd;
   border-radius: 24px;
   overflow: hidden;
-  display: flex;
-  flex-direction: column; /* Updated to column */
-  align-items: center;
 }
 
 .name {
@@ -106,14 +103,10 @@ body {
   text-align: center;
 }
 
-
-
 .message-form {
   display: flex;
   justify-content: space-between;
   width: 400px;
-  margin-top: auto;
-  margin-bottom: 0px; 
 }
 
 .message-input {
@@ -146,6 +139,3 @@ body {
   margin: 20px 0;
   color: #7e7e7e;
 }
-
-
-
